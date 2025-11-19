@@ -1,7 +1,5 @@
 import { Controller, Get, Post, Body, Patch, Param, Delete, Query } from '@nestjs/common';
 import { BusscarProdutoService } from './busscar_produto.service';
-import { CreateBusscarProdutoDto } from './dto/create-busscar_produto.dto';
-import { UpdateBusscarProdutoDto } from './dto/update-busscar_produto.dto';
 import { ApiQuery } from '@nestjs/swagger';
 
 @Controller('busscar-produto')
