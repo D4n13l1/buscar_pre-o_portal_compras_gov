@@ -8,7 +8,7 @@ async function bootstrap() {
 
 
   const config = new DocumentBuilder()
-    .setTitle('Termo referência')
+    .setTitle('Buscar dados no portal de compras gov.br')
     .setVersion('1.0')
     .addBearerAuth(
       {
